@@ -2,6 +2,9 @@
 
 In this challenge, you will estimate the time it takes for a simulated 3D printer to complete a given set of machine instructions.
 
+## Solution:
+[Solution](/solution)
+
 ## Problem Statement
 
 [Gcode](https://en.wikipedia.org/wiki/G-code) is machine code that is often used to control automated manufacturing tooling, such as 3D printers. Each line of gcode describes a single action, which will take a finite period of time to execute (often over a second). A single gcode file may have millions of commands, so it can take a long time to complete (often hours). For planning purposes, we often want to accurately estimate how long a gcode file will take to execute on a real machine, without actually executing it. This is nontrivial because the machine itself applies control and decides how to move. For example, it may decelerate near sharp corners to avoid overshooting. Your mission, should you choose to accept it, is to algorithmically estimate the time-to-completion of a given gcode file.
