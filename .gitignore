@@ -1,0 +1,6 @@
+# OS/Editor generated
+.DS_Store
+*.swp
+
+# Python object files
+*.pyc
