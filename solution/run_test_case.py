@@ -35,8 +35,9 @@ def main():
         )
 
         logger.info(
-            'ground_truth: {} timeout: {} already_completed: {}'.format(
-                ground_truth, timeout, already_completed
+            '\nestimate:\t\t{:20.40}\nground_truth:\t\t{:20.40}'
+            '\ntimeout:\t\t{}\nalready_completed:\t{}'.format(
+                estimate, ground_truth, timeout, already_completed
             )
         )
 
